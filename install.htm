@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+<p>
+<div class="w3-center">
+
+To download our software, select the proper version for your system, and install the same as you would for Bitcoin Core. To connect to public nodes, do the following:
+
+Click 'Help' -> Debug Window -> Console - Paste
+
+addnode "144.168.39.239:6703" "add"
+addnode "192.227.186.69:6703" "add"
+addnode "192.227.186.70:6703" "add"
+
+If everything works properly, then you will download until 530,501 blocks. At this point close Bitcoin 1776 and restart. Now you will be on the 6703 port (instead of 8333). From here you should be able to begin mining (after opening port 6703).
+
+Ubuntu Install Instructions
+ONLY WORKS WITH GUI SUCH AS GNOME NO CMD
+Open Package, extract, and open a terminal(CTRL + T)
+cd Downloads
+ls
+sudo chmod +X bitcoin1776-bin
+./bitcoin1776qt
+You should be up and running!
+Happy Mining!
+</p>
+</body>
+
+
+</html>
